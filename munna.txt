@@ -1,0 +1,1 @@
+#include <stdio.h> #include<string.h> int main(){ char str[1001]; gets(str); int cnt=0,i,len=strlen(str); for(i=0; i<len; i++){ if(str[i]=='o' && str[i+1]=='k'){ cnt++; i++; } } printf("%d\n", cnt); return 0; }
